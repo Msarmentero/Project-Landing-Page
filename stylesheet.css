@@ -57,6 +57,9 @@ button{
 
     padding: 112px 224px;
     gap: 56px;
+
+    max-width: 100%;
+
 }
 
 .text-container{
@@ -124,6 +127,8 @@ button{
 .white-container{
     text-align: "center";
     padding: 60px 0 110px;
+    max-width: 100%;
+
 }
 .box-container{
     
@@ -190,6 +195,8 @@ button{
     display: flex;
     flex: 1;
     justify-content: center;
+    max-width: 100%;
+
 
 
 }
@@ -226,6 +233,8 @@ button{
 .main-container{
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+
 }
 
 .action-call-title, .action-call-text, .copyright{
