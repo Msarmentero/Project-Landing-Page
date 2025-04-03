@@ -1,0 +1,147 @@
+p, ul{
+    color:#b8b6b6
+}
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0;
+}
+
+.header-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 224px;
+
+}
+
+.header-color{
+    background-color: #1f2937;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+
+    gap: 16px;
+}
+
+.blue-container{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+
+    padding: 112px 224px;
+    gap: 56px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+.gray-square{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+}
+
+.white-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.white-container{
+    text-align: "center";
+    padding: 60px 0 110px;
+}
+.box-container{
+    
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(186, 219, 248);
+}
+.info {
+    max-width: 200px;
+  }
+
+  .gray-container{
+    background-color: #e5e7eb;
+    padding: 56px 280px ;
+  }
+
+  .quote{
+    font-size: 36px;
+    color: #1f2937
+  }
+
+.quote-author{
+    display: flex;
+    justify-content: end;
+
+    font-size: 30px;
+    color: #1f2937;
+
+    padding-right: 64px;
+}
+.last-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+
+}
+.lightblue-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3882f6;
+
+    width: 600px;
+    height: 100px;
+
+    margin: 80px auto;
+    padding: 40px 80px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.action-call-title, .action-call-text, .copyright{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1f2937;
+    height: 100px;
+}
